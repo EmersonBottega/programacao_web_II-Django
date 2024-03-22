@@ -25,10 +25,7 @@ SECRET_KEY = 'django-insecure-_5q$s(&k0i3nx+lu=i&r!m!^g55jd4)q)0iy%qm-o(kxbb#7*q
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS=["*"]
-CSRF_TRUSTED_ORIGINS = [
-    "https://fantastic-goggles-j6x4jp9qgvqhp799-8000.app.github.dev/",
-]
+ALLOWED_HOSTS = []
 
 
 # Application definition
